@@ -14,3 +14,10 @@ Space를 눌러 점프할 수 있다. 오래 누르면 더 높고 멀게 점프�
 오른쪽 마우스 버튼을 꾹 누르면 시간을 느려지게 할 수 있어 빠른 반응이 필요한 상황을 헤쳐나갈 수 있다. 영화같은 장면이 나올수도 있지만 너무 심취하여 바닥을 신경쓰지 않다간 바다로 떨어져 사망할 수 있으니 조심해야한다.
 
 난이도는 점점 상승하고, (0단계 ~ 5단계) 그에 따라 점수 보상도 커진다. 난이도에 따라 더 어려운 적들이 더 자주 나타나고, 게임 속도도 빨라지며, 보호막 리젠 속도도 느려진다.
+
+###### 음악
+
+Starbox - Digital Dream (Azureflux Remix)
+from Bit Bops by Azureflux
+
+https://azuresound.bandcamp.com/track/digital-dream-azureflux-remix
