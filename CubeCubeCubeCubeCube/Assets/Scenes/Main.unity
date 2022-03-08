@@ -7132,8 +7132,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41aebca23833e53409b4e78c93878831, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zaWarudoReady: {fileID: 2100000, guid: 62dd78650998c2341a00c06d50f8f0ab, type: 2}
-  zaWarudoCharging: {fileID: 2100000, guid: 00a6c9dd1bbba864cad32151fa00fc92, type: 2}
 --- !u!1 &802657955
 GameObject:
   m_ObjectHideFlags: 0
@@ -9972,7 +9970,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -74}
+  m_AnchoredPosition: {x: 0, y: -78}
   m_SizeDelta: {x: 1600, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2035317266
@@ -9995,7 +9993,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 9a6180760b9236c4497d1545c8ada255, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
