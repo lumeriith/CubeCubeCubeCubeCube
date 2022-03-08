@@ -9756,7 +9756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammo: 85
   maxAmmo: 85
-  ammoChargePerSecond: 360
+  ammoChargePerSecond: Infinity
   shootKnockbackVelocity: 5
   powerShootKnockbackVelocity: 25
   whatStopsBullet:
