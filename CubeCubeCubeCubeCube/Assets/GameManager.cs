@@ -99,9 +99,7 @@ public class GameManager : MonoBehaviour {
         score += amount * (difficulty + 1);
         if (amount >= 5)
         {
-            ForegroundCanvasController.instance.SetScoreEmission(2.5f);
             General.instance.sfx.Play("Score");
-            
         }
         
     }
