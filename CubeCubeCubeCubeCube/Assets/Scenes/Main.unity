@@ -8047,8 +8047,8 @@ MonoBehaviour:
   - {fileID: 578375588}
   - {fileID: 1644266749}
   - {fileID: 1487758050}
-  minimumPlatformAltitude: -520
-  maximumPlatformAltitude: -400
+  minimumPlatformAltitude: 0
+  maximumPlatformAltitude: 35
   spawnAheadDistance: 85
   despawnBehindDistance: 5
   calculateFuturePositionOfPlayer: 1
