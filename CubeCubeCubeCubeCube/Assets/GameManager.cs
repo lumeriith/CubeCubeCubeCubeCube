@@ -320,7 +320,11 @@ public class GameManager : MonoBehaviour {
 
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.Escape) && Player.instance.isDead)
+        {
+            SceneManager.LoadScene("Main Menu");
+        }
+        
         if (Input.GetKeyDown(KeyCode.R))
         {
             int highscore = PlayerPrefs.GetInt("Highscore", 0);

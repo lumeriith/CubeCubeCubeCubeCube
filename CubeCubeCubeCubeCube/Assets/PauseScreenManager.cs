@@ -14,7 +14,7 @@ public class PauseScreenManager : MonoBehaviour {
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !Player.instance.isDead)
         {
             isGamePaused = !isGamePaused;
             Player.instance.playerZaWarudo.enabled = !isGamePaused;
