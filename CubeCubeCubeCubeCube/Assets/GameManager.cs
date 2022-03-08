@@ -85,7 +85,7 @@ public class GameManager : MonoBehaviour {
 
     public GameObject gameOverScreen;
 
-    void Start () {
+    private void Start () {
         Cursor.SetCursor(cursorTexture, new Vector3(30, 30), CursorMode.Auto);
         player = Player.instance;
         gameStartTime = Time.time;
@@ -186,7 +186,7 @@ public class GameManager : MonoBehaviour {
     public void UpdateColour()
     {
         StopCoroutine("GradualColourChangeRoutine");
-        StartCoroutine("GradualColourChangeRoutine");
+        StartCoroutine(nameof(GradualColourChangeRoutine));
 
         
     }

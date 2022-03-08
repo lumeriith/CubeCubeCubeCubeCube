@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -86,7 +87,6 @@ public class ForegroundCanvasController : MonoBehaviour {
         lastCameraPosition = cameraTransform.position;
 
     }
-
     
     // Update is called once per frame
     void LateUpdate()
