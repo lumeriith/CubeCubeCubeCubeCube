@@ -211,9 +211,16 @@ public class GameManager : MonoBehaviour {
     {
         float timeElapsed = Time.time - gameStartTime;
         int newDifficulty = Mathf.Clamp((int)(travelDistance / distancePerDifficulty), 0, 5);
+        if (TutorialManager.instance != null && TutorialManager.instance.isShown)
+        {
+            player.playerZaWarudo.regularTimescale = 0;
+            newDifficulty = -1;
+            return;
+        }
         if (difficulty == newDifficulty) return;
         difficulty = newDifficulty;
         UpdateColour();
+
         switch (difficulty)
         {
             case 0:
@@ -334,7 +341,7 @@ public class GameManager : MonoBehaviour {
         }
 
 
-        if (!player.isDead)
+        if (!player.isDead && (TutorialManager.instance == null || !TutorialManager.instance.isShown))
         {
             AddScore(Time.unscaledDeltaTime * 10f);
             travelDistance = player.transform.position.z;
