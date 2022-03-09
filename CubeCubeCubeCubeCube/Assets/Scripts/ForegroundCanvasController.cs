@@ -82,9 +82,9 @@ public class ForegroundCanvasController : MonoBehaviour {
         zaWarudoCharge.fillAmount = 1 - player.playerZaWarudo.currentCooldown / player.playerZaWarudo.cooldown;
         scoreBackdrop.text = GameManager.instance.score.ToString("#,#");
         score.text = scoreBackdrop.text;
-        stars.text = new string('★', GameManager.instance.difficulty);
+        stars.text = new string('★', Mathf.Max(GameManager.instance.difficulty, 0));
 
 
-        distance.text = ((int)(GameManager.instance.travelDistance)).ToString("#,#0") + "m";
+        distance.text = ((int)(Mathf.Max(GameManager.instance.travelDistance, 0))).ToString("#,#0") + "m";
     }
 }
